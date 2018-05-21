@@ -25,7 +25,7 @@ public class WprowadzzKonsoli {
                 throw new Exception("Wprowadzono zly typ danych !"); 
             }
         }catch(Exception e){
-            System.out.println("");
+            System.out.println("Zbyt duza ilość znaków");
             
         }
     }
@@ -34,7 +34,7 @@ public class WprowadzzKonsoli {
            float thing = wczytaj.nextFloat();
         }catch(Exception e){
             System.out.println("Wprowadzono zly typ danych !");
-            System.out.println("Zbyt dyza ilosc znakow");
+          
         }
     }
     public void WprowadzString(){
@@ -42,7 +42,7 @@ public class WprowadzzKonsoli {
            String thing = wczytaj.nextLine();
         }catch(Exception e){
             System.out.println("Wprowadzono zly typ danych !");
-            System.out.println("Zbyt dyza ilosc znakow");
+          
         }
     }
     public void WprowadzLong(){
@@ -50,7 +50,7 @@ public class WprowadzzKonsoli {
            long thing = wczytaj.nextLong();
         }catch(Exception e){
             System.out.println("Wprowadzono zly typ danych !");
-            System.out.println("Zbyt dyza ilosc znakow");
+          
         }
     }
     public void WprowadzShort(){
@@ -58,7 +58,7 @@ public class WprowadzzKonsoli {
            short thing = wczytaj.nextShort();
         }catch(Exception e){
             System.out.println("Wprowadzono zly typ danych !");
-            System.out.println("Zbyt dyza ilosc znakow");
+           
         }
     }
     public void WprowadzDouble(){
@@ -66,7 +66,7 @@ public class WprowadzzKonsoli {
            double thing = wczytaj.nextDouble();
         }catch(Exception e){
             System.out.println("Wprowadzono zly typ danych !");
-            System.out.println("Zbyt dyza ilosc znakow");
+           
         }
     }
    
